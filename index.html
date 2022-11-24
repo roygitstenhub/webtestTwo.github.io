@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website for biginners</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@1,300&family=Public+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar-header">
+        <div class="container">
+            <div class="logo">
+                <h2>food, LLC</h2>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#">chicken</a></li>
+                    <li><a href="#">beef</a></li>
+                    <li><a href="#">susi</a></li>
+                </ul>
+            </nav>
+            <div class="toogle-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <div class="main-text">
+                <h1>our menu</h1>
+                <div class="content">
+                    <h3>chicken</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque modi fugit nam fugiat repudiandae
+                        aperiam ducimus ullam distinctio sequi, ab dolorem eos natus dolores harum vel veniam nulla
+                        magnam iusto animi laudantium quos dolorum at. Culpa ipsam officia maxime consequatur incidunt
+                        tempora voluptatum eius quod, nihil esse tenetur voluptatem ut est numquam ea. Tempore vitae rem
+                        facilis fuga suscipit odit voluptas quod accusantium eaque dolores soluta ipsum culpa
+                        reprehenderit repellendus, earum perspiciatis. Alias ut aperiam, harum fugit voluptatibus
+                        voluptatum temporibus necessitatibus doloribus reprehenderit perferendis ea architecto eum
+                        facilis vel ipsa. Illo quos esse excepturi quaerat ducimus blanditiis nostrum corrupti. Quod,
+                        temporibus? Delectus excepturi aut dicta cupiditate odio dolores minima dolorum aspernatur ipsa
+                        consequuntur officia consectetur numquam, blanditiis fuga voluptates voluptatum repudiandae.
+                        Quae quos eius repudiandae animi possimus dolorem perferendis laudantium id magnam assumenda,
+                        ipsam ea earum itaque, beatae sequi, quidem inventore sunt reprehenderit harum qui fuga. At id
+                        dolorem deleniti.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque modi fugit nam
+                        fugiat repudiandae aperiam ducimus ullam distinctio sequi, ab dolorem eos natus dolores harum
+                        vel veniam nulla magnam iusto animi laudantium quos dolorum at. Culpa ipsam officia maxime
+                        consequatur incidunt tempora voluptatum eius quod, nihil esse tenetur voluptatem ut est numquam
+                        ea. Tempore vitae rem facilis fuga suscipit odit voluptas quod accusantium eaque dolores soluta
+                        ipsum culpa reprehenderit repellendus, earum perspiciatis. Alias ut aperiam, harum fugit
+                        voluptatibus voluptatum temporibus necessitatibus doloribus reprehenderit perferendis ea
+                        architecto eum facilis vel ipsa. Illo quos esse excepturi quaerat ducimus blanditiis nostrum
+                        corrupti. Quod, temporibus? Delectus excepturi aut dicta cupiditate odio dolores minima dolorum
+                        aspernatur ipsa consequuntur officia consectetur numquam, blanditiis fuga voluptates voluptatum
+                        repudiandae. Quae quos eius repudiandae animi possimus dolorem perferendis laudantium id magnam
+                        assumenda, ipsam ea earum itaque, beatae sequi, quidem inventore sunt reprehenderit harum qui
+                        fuga. At id dolorem delenitisoluta ipsum culpa reprehenderit repellendus, earum perspiciatis.
+                        Alias ut aperiam, harum fugit voluptatibus voluptatum temporibus necessitatibus doloribus
+                        reprehenderit perferendis ea architecto eum facilis vel ipsa. Illo quos esse excepturi quaerat
+                        ducimus blanditiis nostrum corrupti. Quod, temporibus? Delectus excepturi aut dicta cupiditate
+                        odio dolores minima dolorum aspernatur ipsa consequuntur officia consectetur numquam, blanditiis
+                        fuga voluptates voluptatum repudiandae. Quae quos eius repudiandae animi possimus dolorem
+                        perferendis laudantium id magnam assumenda, ipsam ea earum itaque, beatae sequi, quidem
+                        inventore sunt reprehenderit harum qui fuga. At id dolorem</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <script>
+        let toogelbtn = document.getElementsByClassName('toogle-icon')[0];
+        // console.log(toogelbtn)
+        let navbarlinks = document.getElementsByClassName('nav-links')[0];
+        // console.log(navbarlinks)
+
+        toogelbtn.addEventListener('click', () => {
+
+            navbarlinks.classList.toggle('active');
+        })
+    </script>
+
+</body>
+
+</html>

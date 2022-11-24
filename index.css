@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: cursive;
+}
+.navbar-header{
+    width: 100%;
+    height: 20vh;
+    background-color:#898983;
+    border: 2px solid black;
+    position: relative;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+    /* background-color: rgb(255, 98, 0); */
+    float: left;
+    margin-top: 35px;
+}
+.logo h2{
+    font-size: 1.5em;
+    text-shadow: 2px 2px white;
+}
+.nav-links{
+  width: 70%;
+  /* background-color: red; */
+  float: right;
+  margin-top: 35px;
+  padding: 8px;
+}
+.nav-links ul{
+    float:right;
+    list-style: none;
+    /* background-color: yellow; */
+    
+   
+
+}
+.nav-links ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    padding: 8px 15px;
+    color: black;
+    transition: .3s;
+}
+.nav-links ul li a:hover{
+    background-color: #a0a099;
+    border-bottom: 2px solid black;
+    /* border-radius: 5px; */
+}
+.toogle-icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border-radius: 3px;
+    background-color:rgb(94, 92, 92);
+    right: 20px;
+    top: 40px;
+    display: none;
+}
+.toogle-icon span{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 3px;
+}
+@media(max-width:768px)
+{
+    .logo{
+        /* width: 20%; */
+        /* background-color: rgb(255, 98, 0); */
+        float: left;
+        margin-top: 23px;
+    }
+    .toogle-icon{
+        margin-top: -15px;
+    }
+    
+    /* .navbar-header{
+        width: 100%;
+        height: 65vh ;
+    } */
+    .logo{
+        width: 100%;
+    }
+    .nav-links{
+        width: 100%;
+        margin-top: 5px;
+        display: none;
+        position: fixed;
+        top: 80px;
+        left:0%;
+        background-color: #cecdc5;
+        
+    }
+    .nav-links ul{
+        display: block;
+        width: 90%;
+        /* background-color: blue; */
+       
+    }
+    .nav-links ul li{
+        display: block;
+        /* background-color: yellow; */
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-left:-30px;
+        /* padding: 8px 10px; */
+    }
+    .nav-links ul li a{
+        display: block;
+        text-decoration: none;
+        padding: 12px 15px;
+        color: black;
+        border-radius: 8px;
+        transition: .4s;
+    }
+    .nav-links ul li a:hover{
+        background-color: #a0a099;
+        border-bottom: 2px solid black;
+        /* border-radius: 5px; */
+    }
+    .toogle-icon{
+        display: block;
+    }
+    .toogle-icon{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        border-radius: 3px;
+        background-color:rgb(94, 92, 92);
+        right: 20px;
+        top: 40px;
+        /* display: none; */
+    }
+    .toogle-icon span{
+        width: 100%;
+        height: 4px;
+        background-color: black;
+        border-radius: 3px;
+    }
+    .nav-links.active{
+        display:block;
+        
+    }
+
+}
+.main-text h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 25px 0;
+}
+.content{
+    background-color:#898983;
+}
+.content h3{
+    padding-top: 8px;
+    text-align: center;
+}
+.main-text  p{
+   padding: 12px;
+   text-align: justify;  
+}
+@media(max-width:768px)
+{
+    .content p{
+        text-align: justify;
+        font-size: 18px;
+    }
+}
+@media(max-width:460px)
+{
+    .logo h2{
+    font-size:25px ;
+    }
+    .main-text h1{
+        font-size:25px;
+    }
+    .content p{
+        text-align: justify;
+        font-size: 13px;
+    }
+    .nav-links ul li{
+        margin-left: -20px;
+    }
+    
+}
